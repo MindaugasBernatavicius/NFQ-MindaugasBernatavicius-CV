@@ -1,0 +1,61 @@
+body {
+    /*http://stackoverflow.com/questions/29356015/making-a-div-transparent-and-showing-background-image*/
+    /*background:transparent;*/
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*.myImage {*/
+    /*border-radius: 50%;*/
+    /*max-width: 480px;*/
+    /*max-height: 480px;*/
+    /*opacity: 0.1;*/
+/*}*/
+
+/*.img-responsive {*/
+    /*max-width: 100% !important;*/
+    /*max-width: 550px;*/
+    /*width: 100%;*/
+    /*height: auto;*/
+/*}*/
+
+h1 {
+    display: inline-block;
+}
+
+.img-responsive.img-circle {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+div.container-fluid{
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";         */
+    /*filter: alpha(opacity=0);     */
+    /*-moz-opacity: 0.0;            */
+    /*-khtml-opacity: 0.0;          */
+    /*opacity: 0.0;                 */
+    /*background: rgba(255,255,255,0);*/
+    background-color: transparent;
+    color: #ffffff;
+    opacity: 1;
+}
+
+a{
+    color: #ffff00;
+}
+
+a:hover{
+    color: crimson;
+}
+
+/*@media only screen and (min-width: 1200px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 320px) {*/
+
+/*}*/
